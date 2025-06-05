@@ -18,3 +18,6 @@ def write_dataframe_to_csv(dataframe, file_path, index=False):
     :param index: Whether to write row indices to the file. Default is False.
     """
     dataframe.to_csv(file_path, index=index)
+
+def foo():
+    pass
